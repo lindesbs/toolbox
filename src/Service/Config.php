@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace lindesbs\contaotoolbox\Service;
+namespace lindesbs\toolbox\Service;
 
 use Symfony\Component\HttpKernel\KernelInterface;
 use Symfony\Component\Yaml\Yaml;

@@ -2,14 +2,14 @@
 declare(strict_types=1);
 
 
-namespace lindesbs\contaotoolbox\DependencyInjection;
+namespace lindesbs\toolbox\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
-class ContaoToolboxExtension extends Extension
+class toolboxExtension extends Extension
 {
     public function load(array $configs, ContainerBuilder $container): void
     {

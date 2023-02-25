@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace lindesbs\contaotoolbox\Maker;
+namespace lindesbs\toolbox\Maker;
 
 use Symfony\Bundle\MakerBundle\ConsoleStyle;
 use Symfony\Bundle\MakerBundle\DependencyBuilder;

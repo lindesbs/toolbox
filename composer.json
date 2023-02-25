@@ -24,7 +24,7 @@
   },
   "autoload": {
     "psr-4": {
-      "lindesbs\\contaotoolbox\\": "src/"
+      "lindesbs\\toolbox\\": "src/"
     },
     "classmap": [
       "src/Resources/contao/"
@@ -40,7 +40,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "lindesbs\\contaotoolbox\\tests\\": "tests/"
+      "lindesbs\\toolbox\\tests\\": "tests/"
     }
   },
   "config": {
@@ -55,7 +55,7 @@
       "bin-links": false,
       "target-directory": "tools"
     },
-    "contao-manager-plugin": "lindesbs\\contaotoolbox\\ContaoManager\\Plugin"
+    "contao-manager-plugin": "lindesbs\\toolbox\\ContaoManager\\Plugin"
   },
   "scripts": {
     "all": [
