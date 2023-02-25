@@ -8,7 +8,7 @@ use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
 use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
-use lindesbs\toolbox\toolboxBundle;
+use lindesbs\toolbox\ToolboxBundle;
 
 class Plugin implements BundlePluginInterface
 {
@@ -18,7 +18,7 @@ class Plugin implements BundlePluginInterface
     public function getBundles(ParserInterface $parser)
     {
         return [
-            BundleConfig::create(toolboxBundle::class)
+            BundleConfig::create(ToolboxBundle::class)
                 ->setLoadAfter([ContaoCoreBundle::class]),
         ];
     }

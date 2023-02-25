@@ -7,6 +7,6 @@ namespace lindesbs\toolbox;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class toolboxBundle extends Bundle
+class ToolboxBundle extends Bundle
 {
 }
