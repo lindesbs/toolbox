@@ -487,8 +487,11 @@ class DCATools
             }
 
             $sorting = self::$arrSortingOrder[$objSorting::class][$objSorting->pid];
-            foreach ($sortingObjects as $obj) {
-                $sorting = max($sorting, $obj->sorting);
+
+            if ($sortingObjects) {
+                foreach ($sortingObjects as $obj) {
+                    $sorting = max($sorting, $obj->sorting);
+                }
             }
 
             $sorting += 128;
