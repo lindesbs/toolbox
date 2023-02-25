@@ -1,5 +1,5 @@
 {
-  "name": "lindesbs/contaotoolbox",
+  "name": "lindesbs/toolbox",
   "type": "contao-bundle",
   "license": "LGPL-3.0-or-later",
   "require": {
@@ -12,8 +12,7 @@
     "symfony/validator": "^5.4"
   },
   "require-dev": {
-    "roave/security-advisories": "dev-latest"
-    ,
+    "roave/security-advisories": "dev-latest",
     "bamarni/composer-bin-plugin": "^1.5",
     "contao/manager-plugin": "^2.0",
     "phpunit/phpunit": "^9.5",
