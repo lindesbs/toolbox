@@ -1,0 +1,13 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: true
+
+  lindesbs\contaotoolbox\:
+    resource: ../../*
+    exclude: ../../{Entity,Entity,Migrations,Resources,Tests}
+
+  lindesbs\contaotoolbox\Command\:
+    resource: '../../Command/*'
+
