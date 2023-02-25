@@ -3,10 +3,10 @@
 declare(strict_types=1);
 
 
-namespace lindesbs\contaotoolbox;
+namespace lindesbs\toolbox;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class ContaoToolboxBundle extends Bundle
+class ToolboxBundle extends Bundle
 {
 }

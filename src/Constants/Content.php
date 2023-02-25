@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace lindesbs\contaotoolbox\Constants;
+namespace lindesbs\toolbox\Constants;
 
 class Content
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace lindesbs\contaotoolbox\Classes;
+namespace lindesbs\toolbox\Classes;
 
 class DCA
 {

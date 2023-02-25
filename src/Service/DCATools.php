@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace lindesbs\contaotoolbox\Service;
+namespace lindesbs\toolbox\Service;
 
 use Contao\ArticleModel;
 use Contao\ContentModel;
@@ -15,8 +15,8 @@ use Contao\PageModel;
 use Contao\StringUtil;
 use Contao\ThemeModel;
 use Exception;
-use lindesbs\contaotoolbox\Constants\Constant;
-use lindesbs\contaotoolbox\Constants\Page;
+use lindesbs\toolbox\Constants\Constant;
+use lindesbs\toolbox\Constants\Page;
 
 class DCATools
 {
