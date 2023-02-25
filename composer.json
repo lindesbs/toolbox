@@ -17,7 +17,8 @@
     "contao/manager-plugin": "^2.0",
     "phpunit/phpunit": "^9.5",
     "symfony/phpunit-bridge": "^6.1",
-    "symplify/easy-coding-standard": "*"
+    "symplify/easy-coding-standard": "*",
+    "symfony/maker-bundle": "^5.4"
   },
   "conflict": {
     "contao/manager-plugin": "<2.0 || >=3.0"
