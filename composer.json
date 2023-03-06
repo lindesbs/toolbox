@@ -24,7 +24,7 @@
   },
   "autoload": {
     "psr-4": {
-      "lindesbs\\toolbox\\": "src/"
+      "lindesbs\\toolbox\\": "src"
     },
     "classmap": [
       "src/Resources/contao/"
@@ -37,11 +37,6 @@
       "src/Resources/contao/templates/",
       "src/Resources/contao/themes/"
     ]
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "lindesbs\\toolbox\\tests\\": "tests/"
-    }
   },
   "config": {
     "allow-plugins": {
